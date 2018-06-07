@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+}
+
+#mazeDiv {
+    position: relative;
+}
+
+#avatar {
+    position: absolute; 
+    width: 33px; 
+    height: 33px; 
+    background: url('chok.png'); 
+    background-size: contain; 
+    transition: all 0.1s;
+}
+
+#youWonDiv {
+    position: absolute; 
+    left: 50px; 
+    top: 220px; 
+    width: 200px; 
+    height: 120px; 
+    font-size: 50px; 
+    background: lightgray; 
+    text-align: center; 
+    opacity: 0.9;
+}
+
+.hidden {
+    display: none; 
+}
+
+.row {
+    display: flex; 
+    height: 33px;
+}
+
+.cell {
+    width: 33px; 
+    line-height: 33px;
+    text-align: center;
+}
+
+.W {
+    background: #00356b;
+}
+
+.O {
+    margin: 10px; 
+    width: 13px; 
+    border-radius: 6px; 
+    background: lightpink;
+}
+
+.crate {
+    position: absolute; 
+    width: 31px; 
+    height: 31px; 
+    margin: 1px; 
+    background: burlywood; 
+    opacity: 0.7; 
+    transition: all 0.1s;
+}
